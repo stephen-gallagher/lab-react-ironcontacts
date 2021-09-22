@@ -1,5 +1,16 @@
+body {
+  background-color: coral;
+}
+
+h1 {
+  color: lightgreen;
+  font-size: 4em;
+  text-shadow:5px 5px mediumseagreen;
+}
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +46,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.tableMain {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  border: 5px solid lightgreen;
+  padding: 50px;
+  padding-top: 0;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.mainButton {
+  margin: 10px 10px 0 10px;
+  background-color: black;
+  box-shadow: 3px 3px mediumseagreen;
+  color: white;
+  padding: 15px
+}
+
+thead {
+  /* background-color: midnightblue; */
+  color: black;
+  margin: 20px;
+  border: 1px solid black
+}
+
+tr {
+  border: 1px solid black
+}
+
+th {
+  padding: 20px;
+  margin: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+td {
+  border-bottom: 1px solid black;
+}
+
+img {
+  box-shadow: 3px 3px lightgray;
+  margin: 10px 0;
+}
+
+.deleteButton {
+  margin: 10px 10px 0 10px;
+  background-color: red;
+  color: white;
+  padding: 15px
 }
